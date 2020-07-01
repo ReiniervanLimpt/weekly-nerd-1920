@@ -34,10 +34,15 @@ function checkDate(data) {
 
 module.exports = checkDate;
 ```
-Module is called with `goalsToCheck.forEach(element => element.daysToExpiry = dateChecker(element.expiry_date));`
+
+![doel artikel](https://user-images.githubusercontent.com/36195440/86237003-42026680-bb9b-11ea-95c1-cb934ca2e2ba.png)
+
+This module is called with `goalsToCheck.forEach(element => element.daysToExpiry = dateChecker(element.expiry_date));`
 This is a very specific module which can easiliy be altered for reuse.
 
 With some small tweeks to the code this module could be made to return the amount of days between the date given to the module and the current dat so that my colleague Michel could use my module to calculate how many days ago a comment was placed.
+
+***
 
 ### rewriting the module for reuse
 At this moment the module returns a very specific string that is not helpfull in any other page than the goals page of our application, lets rewrite that.
@@ -71,4 +76,4 @@ function checkDate(data) {
 module.exports = checkDate;
 ```
 
-Now my colleagues can call this module with dateChecker(anyDateValue) which will return `-7` if the date is a week ago and `7` if it is in the next week.
+Now my colleagues can call this module with `dateChecker(anyDateValue)` which will return `-7` if the date is a week ago and `7` if it is in the next week.
