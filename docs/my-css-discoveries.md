@@ -7,11 +7,17 @@ During the first course of the webdesign minor (CSS To The Rescue) i was asked t
 Mix blend modes allow you to mix the colors of an element with the colors of its parent, i used this techinique together with an optical illusion trick i learned from watching [ this video](https://www.youtube.com/watch?v=lvvcRdwNhGM) i created two SVG's one of which was an animation of 12 frames with all frames layered over one another and only 1/12 of iets content visible.
 The second SVG is a black box with small openings which were 1/12 parts wide where the black bars are the remaining 11/12 parts this shows every section of each of the 12 animation frames individually when you move them over one another.
 
-### Applying mix-blend-mode
+## Applying mix-blend-mode
 As i explained above mix-blend-modes can be used to blend colors of elements layered over one another, the blend mode i used was: 
 
 `multiply`: the element is multiplied by the background and replaces the background color. The resulting color is always as dark as the background.
 I found out that some colors get completely blocked out depending on the color of its parent element.
+
+### RGB colors
+RGB colors are an additive color model, adding all colors together produces white. I used RGB colors to put on top of the cmyk colors of my animation.
+
+### CMYK colors
+CMYK is a subtractive color model, adding all colors together produces black. My animation is made up out of a cyan circle, a magenta triangle and a yellow square.
 
 Other mix-blend-mode values:
 | value | explanation                                           |
