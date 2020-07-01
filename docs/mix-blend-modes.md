@@ -25,6 +25,8 @@ I used RBG and CMYK colors on top of eachother to subtract colors to make some o
 
 ![blend modes](https://user-images.githubusercontent.com/36195440/86238680-37959c00-bb9e-11ea-8e80-3f14e48ee3e2.gif)
 
+
+
 Other mix-blend-mode values:
 | value | explanation                                           |
 | --------- | :----------------------------------------------------|
@@ -42,3 +44,6 @@ Other mix-blend-mode values:
 | `luminosity` | creates a color with the luminosity of the content and the hue and saturation of the background. This is the inverse of the color attribute. |
 
 Source: [css-ticks](https://css-tricks.com/almanac/properties/m/mix-blend-mode/)
+
+***
+
