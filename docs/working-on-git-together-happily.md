@@ -1,5 +1,7 @@
-## Working as a team in git
+## Working as a team without conflicts
 
+Every developer has to work together with other developers sometimes, in this article i will be talking about my recent personal experiences doing just that, i allso included
+some best practices and guidelines which might help you in your future collaborations!
 Github provides many ways for teams to collaborate on code, with multiple people working on the same exact project. 
 During my final assignment of my webdesign minor ive had to work with 4 students on the same codebase.
 
