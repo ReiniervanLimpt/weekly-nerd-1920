@@ -19,6 +19,12 @@ RGB colors are an additive color model, adding all colors together produces whit
 ### CMYK colors
 CMYK is a subtractive color model, adding all colors together produces black. My animation is made up out of a cyan circle, a magenta triangle and a yellow square.
 
+## Color substraction with blend modes
+I used RBG and CMYK colors on top of eachother to subtract colors to make some of my shapes appear invisible.
+* Green: consists of yellow and cyan, the `multiply` blend mode subtracts the cyan and yellow colors from the animation, the only color left is magenta (the triangle).
+* Red: consists of yellow and magenta, the `multiply` blend mode subtracts these colors from the animation, the only remaining color is cyan (the circle)
+* Blue: consists of magenta and cyan, the `multiply` bland mode subtracts these colors from the animation, the only remaining color is yellow (the square)
+
 Other mix-blend-mode values:
 | value | explanation                                           |
 | --------- | :----------------------------------------------------|
