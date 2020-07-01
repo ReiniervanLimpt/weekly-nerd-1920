@@ -1,4 +1,4 @@
-## hiding elements with mix-blend-mode
+## hiding/showing elements with mix-blend-mode
 
 During the first course of the webdesign minor (CSS To The Rescue) i was asked to explore the limits of CSS, there is something cool i found out you could do with the `mix-blend-mode` property, you can see the result below.
 
@@ -8,4 +8,21 @@ Mix blend modes allow you to mix the colors of an element with the colors of its
 The second SVG is a black box with small openings which were 1/12 parts wide where the black bars are the remaining 11/12 parts this shows every section of each of the 12 animation frames individually when you move them over one another.
 
 ### Applying mix-blend-mode
+As i explained above mix-blend-modes can be used to blend colors of elements layered over one another, the blend mode i used was: 
 
+`multiply`
+>: the element is multiplied by the background and replaces the background color. The resulting color is always as dark as the background.
+
+Other values can be:
+* screen
+* overlay
+* color-dodge
+* color-burn
+* hard-light
+* soft-light
+* difference
+* exclusion
+* hue
+* saturation
+* color
+* luminosity
