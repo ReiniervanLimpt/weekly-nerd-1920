@@ -11,6 +11,7 @@ The second SVG is a black box with small openings which were 1/12 parts wide whe
 As i explained above mix-blend-modes can be used to blend colors of elements layered over one another, the blend mode i used was: 
 
 `multiply`: the element is multiplied by the background and replaces the background color. The resulting color is always as dark as the background.
+I found out that some colors get completely blocked out depending on the color of its parent element.
 
 Other mix-blend-mode values:
 | value | explanation                                           |
@@ -27,3 +28,5 @@ Other mix-blend-mode values:
 | `saturation` | creates a color with the saturation of the content combined with the hue and luminosity of the background. |
 | `color` | creates a color with the hue and saturation of the content and the luminosity of the background. |
 | `luminosity` | creates a color with the luminosity of the content and the hue and saturation of the background. This is the inverse of the color attribute. |
+
+Srouce: [css-ticks](https://css-tricks.com/almanac/properties/m/mix-blend-mode/)
