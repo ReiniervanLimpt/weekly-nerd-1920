@@ -13,16 +13,18 @@ As i explained above mix-blend-modes can be used to blend colors of elements lay
 `multiply`
 >: the element is multiplied by the background and replaces the background color. The resulting color is always as dark as the background.
 
-Other values can be:
-* screen
-* overlay
-* color-dodge
-* color-burn
-* hard-light
-* soft-light
-* difference
-* exclusion
-* hue
-* saturation
-* color
-* luminosity
+Other mix-blend-mode values:
+| value | explanation                                           |
+| ----- | :----------------------------------------------------:|
+| screen |
+| overlay |
+| color-dodge |
+| color-burn |
+| hard-light |
+| soft-light |
+| difference |
+| exclusion |
+| hue |
+| saturation |
+| color |
+| luminosity |
