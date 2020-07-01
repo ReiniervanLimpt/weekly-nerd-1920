@@ -37,4 +37,38 @@ module.exports = checkDate;
 Module is called with `goalsToCheck.forEach(element => element.daysToExpiry = dateChecker(element.expiry_date));`
 This is a very specific module which can easiliy be altered for reuse.
 
-> With some small tweeks to the code this module could be made to return the amount of days between the date given to the module and the current dat so that my colleague Michel could use my module to calculate how many days ago a comment was placed.
+With some small tweeks to the code this module could be made to return the amount of days between the date given to the module and the current dat so that my colleague Michel could use my module to calculate how many days ago a comment was placed.
+
+### rewriting the module for reuse
+At this moment the module returns a very specific string that is not helpfull in any other page than the goals page of our application, lets rewrite that.
+
+`daysAfterExpiry` is not very usefull and serves no purpose in calculating how many days are between the current date and the parameter given to the module, this rule only removed the - before a date prior to the current date (one week ago is -7)
+
+```javascript
+if (currentDate > expiryDate) {
+  const result = `${daysAfterExpiry} dagen geleden verlopen`;
+  return result;
+} else if (expiryDate > currentDate) {
+  const result = `${timeToExpiry} dagen om je doel te behalen`;
+  return result;
+}
+```
+> this entire section of code was written specifically for the goals page and can be removed.
+
+Leaving us with:
+
+```javascript
+function checkDate(data) {
+  const today = new Date();
+  const date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+  const expiryDate = new Date(data);
+  const currentDate = new Date(date);
+  const timeBetweenDates = expiryDate - currentDate;
+  const timeToExpiry = Math.floor(timeBetweenDates / (3600000 * 24));
+  return timeToExpiry
+}
+
+module.exports = checkDate;
+```
+
+Now my colleagues can call this module with dateChecker(anyDateValue) which will return `-7` if the date is a week ago and `7` if it is in the next week.
