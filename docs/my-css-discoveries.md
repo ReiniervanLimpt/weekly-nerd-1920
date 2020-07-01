@@ -29,4 +29,4 @@ Other mix-blend-mode values:
 | `color` | creates a color with the hue and saturation of the content and the luminosity of the background. |
 | `luminosity` | creates a color with the luminosity of the content and the hue and saturation of the background. This is the inverse of the color attribute. |
 
-Srouce: [css-ticks](https://css-tricks.com/almanac/properties/m/mix-blend-mode/)
+Source: [css-ticks](https://css-tricks.com/almanac/properties/m/mix-blend-mode/)
