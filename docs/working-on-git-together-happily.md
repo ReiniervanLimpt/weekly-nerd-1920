@@ -107,6 +107,10 @@ it contains. an example:
 ![BEM](https://user-images.githubusercontent.com/36195440/86278899-667d3380-bbd9-11ea-9f02-987d6b25eb73.png)
 > In this case the form is the block element, and each element within the block starts its classnames with `form` because these elements have no standalone meaning.
 
+## Wrapping up
+Working together can couse many (merge) conflicts, luckily theres tools like git and working conventions developed and tinkered by some of the best developers in the bussiness, 
+every collaboration needs a set of rules to not end in complete chaos. I recommend reading the sources ive listed below which speak about topics ive learned to incorporate in my
+development carreer over the last two months.
 
 ### Sources
 [BEM -- Block Element Modifier](http://getbem.com/naming/)
