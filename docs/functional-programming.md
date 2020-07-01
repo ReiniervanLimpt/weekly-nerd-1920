@@ -71,4 +71,4 @@ function checkDate(data) {
 module.exports = checkDate;
 ```
 
-Now my colleagues can call this module with dateChecker(anyDateValue) which will return `-7` if the date is a week ago and `7` if it is in the next week.
+Now my colleagues can call this module with `dateChecker(anyDateValue)` which will return `-7` if the date is a week ago and `7` if it is in the next week.
