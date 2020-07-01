@@ -110,6 +110,9 @@ it contains. an example:
 
 ### Sources
 [BEM -- Block Element Modifier](http://getbem.com/naming/)
+
 [Git Branch](https://www.atlassian.com/git/tutorials/using-branches)
+
 [Best practices for using git] (https://deepsource.io/blog/git-best-practices/)
+
 [How to solve a git merge conflict](https://opensource.com/article/20/4/git-merge-conflict#:~:text=Create%20a%20new%20Git%20repo,see%20what%20it%20looks%20like.&text=Return%20to%20the%20master%20branch,something%20different%2C%20and%20commit%20that.&text=Automatic%20merge%20failed%3B%20fix%20conflicts%20and%20then%20commit%20the%20result.,-Now%2C%20go%20into)
