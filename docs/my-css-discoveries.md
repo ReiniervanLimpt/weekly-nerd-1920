@@ -10,21 +10,20 @@ The second SVG is a black box with small openings which were 1/12 parts wide whe
 ### Applying mix-blend-mode
 As i explained above mix-blend-modes can be used to blend colors of elements layered over one another, the blend mode i used was: 
 
-`multiply`
->: the element is multiplied by the background and replaces the background color. The resulting color is always as dark as the background.
+`multiply`: the element is multiplied by the background and replaces the background color. The resulting color is always as dark as the background.
 
 Other mix-blend-mode values:
 | value | explanation                                           |
 | ----- | :----------------------------------------------------:|
-| screen |
-| overlay |
-| color-dodge |
-| color-burn |
-| hard-light |
-| soft-light |
-| difference |
-| exclusion |
-| hue |
-| saturation |
-| color |
-| luminosity |
+| `screen` |multiplies the background and the content then complements the result. This will result in content which is brighter than the |
+| `overlay` | multiplies or screens the content depending on the background color. This is the inverse of the hard-light blend mode. |
+| `color-dodge` | this attribute brightens the background color to reflect the color of the content. |
+| `color-burn` | this darkens the background to reflect the content’s natural color. |
+| `hard-light` | depending on the color of the content this attribute will screen or multiply it.|
+| `soft-light` | depending on the color of the content this will darken or lighten it. |
+| `difference` | this subtracts the darker of the two colors from the lightest color. |
+| `exclusion` | similar to `difference` but with lower contrast. |
+| `hue` | creates a color with the hue of the content combined with the saturation and luminosity of the background. |
+| `saturation` | creates a color with the saturation of the content combined with the hue and luminosity of the background. |
+| `color` | creates a color with the hue and saturation of the content and the luminosity of the background. |
+| `luminosity` | creates a color with the luminosity of the content and the hue and saturation of the background. This is the inverse of the color attribute. |
