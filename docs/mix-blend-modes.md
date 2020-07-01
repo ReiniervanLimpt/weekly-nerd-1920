@@ -46,4 +46,3 @@ Other mix-blend-mode values:
 Source: [css-ticks](https://css-tricks.com/almanac/properties/m/mix-blend-mode/)
 
 ***
-
