@@ -23,6 +23,8 @@ I used RBG and CMYK colors on top of eachother to subtract colors to make some o
 * Red: consists of yellow and magenta, the `multiply` blend mode subtracts these colors from the animation, the only remaining color is cyan (the circle)
 * Blue: consists of magenta and cyan, the `multiply` bland mode subtracts these colors from the animation, the only remaining color is yellow (the square)
 
+Knowing this i started by adding a couple of buttons that would change the color of the openings between the black bars that would come to cover the "visible" frames of the underlying SVG. After i got this working i applies the mix blend mode and voila! as expected the green overlay absorbed all colors except for the triangle and the other way around for the other colors.
+
 ![blend modes](https://user-images.githubusercontent.com/36195440/86238680-37959c00-bb9e-11ea-8e80-3f14e48ee3e2.gif)
 
 
