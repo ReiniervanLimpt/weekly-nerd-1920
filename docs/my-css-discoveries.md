@@ -14,7 +14,7 @@ As i explained above mix-blend-modes can be used to blend colors of elements lay
 
 Other mix-blend-mode values:
 | value | explanation                                           |
-| ----- | :----------------------------------------------------:|
+| --------- | :----------------------------------------------------|
 | `screen` |multiplies the background and the content then complements the result. This will result in content which is brighter than the |
 | `overlay` | multiplies or screens the content depending on the background color. This is the inverse of the hard-light blend mode. |
 | `color-dodge` | this attribute brightens the background color to reflect the color of the content. |
